@@ -28,7 +28,7 @@ import {
 import {PointCloudLayer} from '@deck.gl/layers';
 import {ScenegraphLayer} from '@deck.gl/mesh-layers';
 // Internal MeshLayer supports featureIds + PBR; the public SimpleMeshLayer does not.
-import MeshLayer from '@deck.gl/geo-layers/dist/mesh-layer/mesh-layer.js';
+import MeshLayer from '../../../node_modules/@deck.gl/geo-layers/dist/mesh-layer/mesh-layer.js';
 import {load} from '@loaders.gl/core';
 import type {MeshAttributes} from '@loaders.gl/schema';
 import {Tileset3D, Tile3D, TILE_TYPE} from '@loaders.gl/tiles';
