@@ -7,6 +7,7 @@ import {
 } from "@mapcomponents/react-maplibre";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
+import LayerTree from "./components/LayerTree";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -31,7 +32,9 @@ function App() {
           </IconButton>
         }
       />
-      <Sidebar open={sidebarOpen} setOpen={setSidebarOpen}></Sidebar>
+      <Sidebar open={sidebarOpen} setOpen={setSidebarOpen}>
+        <LayerTree />
+      </Sidebar>
     </>
   );
 }
