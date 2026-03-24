@@ -7,14 +7,14 @@ import Checkbox from "@mui/material/Checkbox";
 import Typography from "@mui/material/Typography";
 import Divider from "@mui/material/Divider";
 
-import ThreeDTilesLayer from "./ThreeDTilesLayer/ThreeDTilesLayer_2";
-//import TreeLayer from "./TreeLayer/TreeLayer_final";
+import ThreeDTilesLayer from "./ThreeDTilesLayer/ThreeDTilesLayer_1";
+//import TreeLayer from "./TreeLayer/TreeLayer_1";
 //import HedgeLayer from "./HedgeLayer/HedgeLayer";
 
 const LAYERS = [
-  //{ id: "hedges", label: "Hedges", component: <HedgeLayer /> },
-  { id: "tiles3d", label: "3D Buildings", component: <ThreeDTilesLayer /> },
-  //{ id: "trees", label: "Trees", component: <TreeLayer sizeScale={0.5} /> },
+  //{ id: "hedges", label: "Hedges", component: <HedgeLayer key="hedges" /> },
+  { id: "tiles3d", label: "3D Buildings", component: <ThreeDTilesLayer key="tiles3d" /> },
+  //{ id: "trees", label: "Trees", component: <TreeLayer sizeScale={0.5} key="trees" /> },
 ] as const;
 
 export default function LayerTree() {
