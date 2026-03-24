@@ -1,4 +1,4 @@
-# FossGIS Workshop 2016
+# FossGIS Workshop 2026
 
 Dieses Repository enthält Beispiele, die im FossGIS Workshop "Open Source 3D-GIS im Browser: Einstieg in 3D Tiles mit deck.gl und MapComponents" verwendet werden.
 
