@@ -19,15 +19,15 @@ export default function HedgeLayer() {
       geojson={geojson}
       type="line"
       insertBeforeLayer="waterway-name"
-      paint={{
-        "line-color": "#4caf50",
-        "line-width": 6,
-        "line-opacity": 0.9,
-      }}
       options={{
         layout: {
           "line-cap": "round",
           "line-join": "round",
+        },
+        paint: {
+          "line-color": "#4caf50",
+          "line-width": 6,
+          "line-opacity": 0.9,
         },
       }}
     />
