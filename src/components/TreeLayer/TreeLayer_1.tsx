@@ -1,9 +1,5 @@
-import { useCallback, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { MlSceneGraphLayer } from "@mapcomponents/deck-gl";
-import Box from "@mui/material/Box";
-import Divider from "@mui/material/Divider";
-import Paper from "@mui/material/Paper";
-import Typography from "@mui/material/Typography";
 
 interface TreeFeature {
   type: "Feature";
