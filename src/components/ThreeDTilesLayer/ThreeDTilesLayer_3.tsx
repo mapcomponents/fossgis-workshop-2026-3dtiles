@@ -43,8 +43,7 @@ export default function ThreeDTilesLayer({}: Props) {
     <>
       <Ml3DTileLayer
         id="3d-tiles-layer"
-        //data="https://sgx.geodatenzentrum.de/gdz_basemapde_3d_gebaeude/lod2_4978_null.json"
-        data="http://localhost:9559/lod2_4978_null.json"
+        data="https://sgx.geodatenzentrum.de/gdz_basemapde_3d_gebaeude/lod2_4978_null.json"
         pickable={true}
         getFeatureColor={getFeatureColor}
         //onClick={onClick}
