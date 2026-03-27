@@ -8,6 +8,7 @@ import {
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import LayerTree from "./components/LayerTree";
+import Light from "./components/Light";
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -35,6 +36,7 @@ function App() {
       <Sidebar open={sidebarOpen} setOpen={setSidebarOpen}>
         <LayerTree />
       </Sidebar>
+      <Light />
     </>
   );
 }
