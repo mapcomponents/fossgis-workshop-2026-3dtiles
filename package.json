@@ -10,8 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@mapcomponents/deck-gl": "^1.8.9",
-    "@mapcomponents/react-maplibre": "^1.8.9",
+    "@mapcomponents/deck-gl": "1.8.10",
+    "@mapcomponents/react-maplibre": "1.8.10",
     "react": "^19.2.4",
     "react-dom": "^19.2.4"
   },
